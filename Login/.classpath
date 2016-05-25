@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/com.springsource.com.ibatis-2.3.4.726.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/com.springsource.net.sf.cglib-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/com.springsource.org.apache.commons.pool-1.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/jstl-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/jstl-impl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.aop-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.asm-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.aspects-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.beans-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.context.support-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.context-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.core-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.expression-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.instrument.tomcat-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.instrument-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.jdbc-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.jms-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.orm-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.oxm-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.test-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.transaction-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.web.portlet-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.web.servlet-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.web.struts-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/develop/LIB/springlibrary/org.springframework.web-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

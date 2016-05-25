@@ -1,0 +1,40 @@
+http://localhost:8000/Login/login.do
+
+
+drop table member
+create table member(
+id varchar2(20) primary key,
+pwd varchar2(20),
+name varchar2(20),
+addr varchar2(50)
+);
+
+
+프로젝트 명 : Login
+
+src 
+패키지 : member
+클래스 : Dao
+         Member
+         MemController
+         OracleDao
+         Service
+         ServiceImpl
+WebContent
+폴더 : member
+JSP페이지 : check
+            editForm
+            form
+            login
+            loginForm
+
+JS파일 : httpRequest
+
+
+WEB-INF
+dispatcher-servlet.xml
+web.xml
+
+
+
+            
