@@ -66,7 +66,7 @@ public class OracleDao implements Dao {
 	public void update(Member m) {
 		// TODO Auto-generated method stub
 		con();
-		String sql = "update member4 set pwd = ?, name = ?,addr = ? where id=?";
+		String sql = "update member4 set pwd = ?, name = ?,msg = ? where id=?";
 
 		try {
 			pstmt = conn.prepareStatement(sql);
@@ -76,7 +76,7 @@ public class OracleDao implements Dao {
 			pstmt.setString(4, m.getId());
 			pstmt.executeUpdate();
 			pstmt.close();
-			System.out.println("¼öÁ¤ ¿Ï·á");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Ï·ï¿½");
 			discon();
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -106,7 +106,7 @@ public class OracleDao implements Dao {
 	public void con() {
 		// TODO Auto-generated method stub
 		conn = DataSourceUtils.getConnection(dataSource);
-		//Spring IOCÄÁÅ×ÀÌ³Ê°¡ °¡Á®¿È (¿¹Àü¿£ ÅèÄÏ¿¡¼­)
+		//Spring IOCï¿½ï¿½ï¿½ï¿½ï¿½Ì³Ê°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½)
 	}
 
 	@Override
